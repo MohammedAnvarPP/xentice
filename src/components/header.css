@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Global a tag*/
+a{
+  color: white;
+  text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.gap30{
+    gap: 30px;
+
+}
+.flex-spBt{
+    display: flex;
+    justify-content: space-between;
+}
+.li-styleNone{
+    list-style: none;
+}
+/* header css */
+.header{
+    margin: 0;
+    width: 100%;
+    min-height: 80px;
+    background-color: #fff;
+    /* position: fixed; */
+    flex-direction: row;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    z-index: 100;
+}
+.header img{
+    min-width: 150px;
+    max-width: 160px;
+    margin-left: 10px;
+    object-fit: contain;
+  }
+  .menu-logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .ul-header{
+    margin-right: 0px;
+  }
+  .ul-header li{
+    color: blue;
+    text-align: center;
+    display: flex;
+  }
+
+span svg{
+    width: 24px;
+}
+  .ionicon{
+    max-width: 24px;
+    color: black;
+  }
+  .header-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Iconcard{
+    
+  }
+  .Iconcard img{
+    margin-left: 33px;
+    width: 30px;
+    height: 30px;
+    color: black;
+  }
+  .subHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /* height: 100px; */
+    background-color: #012b72;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 5px 5px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    z-index: 20;
+  }
+  .subHeader-items{
+    padding: 20px 20px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
